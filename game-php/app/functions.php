@@ -12,9 +12,9 @@
 
     function connect () {
         $link = new PDO(
-            'mysql:dbname=game;host=localhost', 
-            'root',
-            '' 
+            'mysql:dbname=game;host=mysql', 
+            'root', 
+            ''
         );
 
         return $link;
